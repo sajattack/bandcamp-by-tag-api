@@ -1,0 +1,23 @@
+{
+  "name": "json-backend",
+  "version": "0.1.0",
+  "description": "json-serving backend for bandcamp-by-tag",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Paul Sajna <paulsajna@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bandcamp-scraper": "^1.2.4",
+    "finalhandler": "^1.1.1",
+    "http": "0.0.0",
+    "nthline": "^1.0.1",
+    "router": "^1.3.3"
+  },
+  "engines": {
+    "npm": "~6.4.1",
+    "node": "~10.13.0"
+  }
+}
